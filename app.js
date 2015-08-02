@@ -6,6 +6,7 @@
 var express = require('express');
 var routes = require('./routes');
 var user = require('./routes/user');
+var contactsRouter = require( './routes/contacts' );
 var http = require('http');
 var path = require('path');
 
@@ -28,8 +29,11 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
-app.get('/', routes.index);
-app.get('/users', user.list);
+app.use(routes.index);
+app.get('/contacts', contactsRouter.index);
+app.get('/contacts/groups', contactsRouter.groups);
+app.get('/contacts/groups/:name', contactsRouter.getGroupByName);
+app.get('/contacts/:number', contactsRouter.getByNumber);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));

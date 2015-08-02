@@ -1,4 +1,4 @@
-{
+[{
   "firstname": "Joe",
   "lastname": "Smith",
   "title": "Mr.",
@@ -14,7 +14,66 @@
     "j.smith@xyz.com"
   ],
   "groups": [
+    "Dev"
+  ]
+},{
+  "firstname": "Fernando",
+  "lastname": "Daciuk",
+  "title": "Mr.",
+  "company": "Dev Inc.",
+  "jobtitle": "Frontend Engineer",
+  "primarycontactnumber": "+554422115515",
+  "othercontactnumbers": [
+    "+551122335566",
+    "+554784545412"
+  ],
+  "primaryemailaddress": "eu@eumermo.com",
+  "emailaddresses": [
+    "other@eumermo.com",
+    "another@eumermo.com"
+  ],
+  "groups": [
     "Dev",
     "Family"
   ]
-}
+},{
+  "firstname": "Lucas",
+  "lastname": "Rodrigues",
+  "title": "Mr.",
+  "company": "Dev Inc.",
+  "jobtitle": "Frontend Engineer",
+  "primarycontactnumber": "+554422115515",
+  "othercontactnumbers": [
+    "+551122335566",
+    "+554784545412"
+  ],
+  "primaryemailaddress": "eu@eumermo.com",
+  "emailaddresses": [
+    "other@eumermo.com",
+    "another@eumermo.com"
+  ],
+  "groups": [
+    "Family"
+  ]
+},{
+  "firstname": "Marcio",
+  "lastname": "Pereira",
+  "title": "Mr.",
+  "company": "Dev Inc.",
+  "jobtitle": "Frontend Engineer",
+  "primarycontactnumber": "+554422115515",
+  "othercontactnumbers": [
+    "+551122335566",
+    "+554784545412"
+  ],
+  "primaryemailaddress": "eu@eumermo.com",
+  "emailaddresses": [
+    "other@eumermo.com",
+    "another@eumermo.com"
+  ],
+  "groups": [
+    "Dev",
+    "Family",
+    "Friends"
+  ]
+}]
