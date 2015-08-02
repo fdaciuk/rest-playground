@@ -6,6 +6,7 @@
     "start": "node app.js"
   },
   "dependencies": {
+    "cors": "^2.7.1",
     "express": "3.4.6"
   }
 }

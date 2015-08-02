@@ -18,6 +18,7 @@ if ('development' === app.get('env')) {
   app.use(express.errorHandler());
 }
 
+app.use( require('cors')() );
 app.use(routes.index);
 app.get('/contacts', contactsRouter.index);
 app.get('/contacts/groups', contactsRouter.groups);
