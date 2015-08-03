@@ -6,7 +6,11 @@
     "start": "node app.js"
   },
   "dependencies": {
+    "body-parser": "^1.13.3",
     "cors": "^2.7.1",
-    "express": "3.4.6"
+    "express": "3.4.6",
+    "leveldown": "^1.4.0",
+    "levelup": "^1.2.1",
+    "morgan": "^1.6.1"
   }
 }
